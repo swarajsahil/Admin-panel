@@ -33,11 +33,11 @@ function App() {
                 <div className="flex-1 overflow-auto">
                   <Routes>
                     <Route path="/admin" element={<Dashboard />} />
-                    <Route path="/blog/*" element={<Blog />} />
-                    <Route path="/casino/*" element={<Casino />} />
-                    <Route path="/games/*" element={<Games />} />
-                    <Route path="/reviews" element={<Review />} />
-                    <Route path="/popup/*" element={<Popup />} />
+                    <Route path="/admin/blog/*" element={<Blog />} />
+                    <Route path="/admin/casino/*" element={<Casino />} />
+                    <Route path="/admin/games/*" element={<Games />} />
+                    <Route path="/admin/reviews" element={<Review />} />
+                    <Route path="/admin/popup/*" element={<Popup />} />
                   </Routes>
                 </div>
               </div>
